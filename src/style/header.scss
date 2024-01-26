@@ -1,0 +1,17 @@
+nav {
+    position: relative;
+    .logo{
+        margin-left: 5em;
+    }
+    .nav{
+        position: absolute;
+        right: 4em;
+        top: 1em;
+        .navLink{
+            text-decoration: none;
+            color: #FF6060;
+            padding: 1em;
+            font-size:x-large
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.banner-container {
+    position: relative;
+    width: 100%;
+    display: inline-block; /* Ensures the container only takes the necessary width */
+    .banner {
+        border-radius: 10px;
+        object-fit: cover;
+        filter: brightness(.7);
+    }
+    
+    .banner-text {
+        position: absolute;
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        color: white; 
+        font-size:50px; 
+        text-align: center; 
+    }
+}

@@ -1,0 +1,18 @@
+.card{
+    background-color: red;
+    position: relative;
+    border-radius: 10px;
+    text-align: start;
+    .card-cover{
+        object-fit: cover;
+        width: 340px;
+        height: 340px;
+        border-radius: 10px;
+    }
+    .card-title{
+        position: absolute;
+        bottom: 1em;
+        left: 1em;
+        color: white;
+    }
+}

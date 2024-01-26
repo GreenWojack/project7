@@ -1,0 +1,18 @@
+.error{
+    color: #FF6060;
+    text-align: center;
+    .error-number{
+        font-size: 10em;
+        margin-bottom: 0;
+    }
+    .homepage{
+        color: #FF6060;
+    }
+    .error-home{
+        margin-top: 10em;
+        font-size:medium;
+    }
+    .error-home:hover{
+        cursor: pointer;
+    }
+}
