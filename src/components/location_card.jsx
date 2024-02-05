@@ -2,7 +2,7 @@ import React from "react"
 import "../style/location_card.scss"
 
 function Card({ logement, onClick }) {
-  const { id, title, cover, description, host, rating, location, equipments, tags } = logement
+  const { id, title, cover } = logement
 
   return (
     <div className="card" onClick={() => onClick(id)}>

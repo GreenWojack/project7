@@ -1,18 +1,21 @@
 nav {
+  position: relative;
+  margin-top: 1em;
+  justify-content: center;
+  display: flex;
+  .navigation {
+    width: 90%;
     position: relative;
-    margin-top: 1em;
-    .logo{
-        margin-left: 5em;
+    .nav {
+      position: absolute;
+      right: 0;
+      top: 1em;
+      .navLink {
+        text-decoration: none;
+        color: #ff6060;
+        padding: 1em;
+        font-size: x-large;
+      }
     }
-    .nav{
-        position: absolute;
-        right: 4em;
-        top: 1em;
-        .navLink{
-            text-decoration: none;
-            color: #FF6060;
-            padding: 1em;
-            font-size:x-large
-        }
-    }
+  }
 }
