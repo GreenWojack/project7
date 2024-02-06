@@ -19,9 +19,9 @@ function Carousel({ pictures }) {
   return (
     <div className="carousel">
       <div className="carousel-container">
-        <img src={arrow_left} alt="Previous" className="arrow arrow_left" onClick={() => handleClick("prev")} />
-        <img src={pictures[currentImage]} alt="" className="carousel-img" onClick={handleClick} />
-        <img src={arrow_right} alt="Next" className="arrow arrow_right" onClick={() => handleClick("next")} />
+        {pictures.length > 1 && <img src={arrow_left} alt="Previous" className="arrow arrow_left" onClick={() => handleClick("prev")} />}
+        <img src={pictures[currentImage]} alt="" className="carousel-img" />
+        {pictures.length > 1 && <img src={arrow_right} alt="Next" className="arrow arrow_right" onClick={() => handleClick("next")} />}
       </div>
     </div>
   )
