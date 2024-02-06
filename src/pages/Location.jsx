@@ -21,7 +21,7 @@ const Location = () => {
   function getLogement() {
     const foundLogement = logements.find((logement) => logement.id === id)
     if (!foundLogement) {
-      navigate("/")
+      navigate("*")
     }
     setSelectedLogement(foundLogement)
   }
@@ -68,7 +68,7 @@ const Location = () => {
           </div>
 
           <div className="location-collapse">
-            <div className="collapse-wrapper">
+            <div className="location-collapse-wrapper">
               <div className="description-collapse">
                 <Collapse title="Description" text={selectedLogement.description} />
               </div>

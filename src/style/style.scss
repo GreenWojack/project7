@@ -6,43 +6,33 @@
 @import "./location_card.scss";
 @import "./location.scss";
 @import "./tag.scss";
+@import "./collapse.scss";
 @import "./footer.scss";
 
 body {
   margin: 0;
 }
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .banner {
+    width: 90%;
+    height: 12em;
+    margin-bottom: 30px;
+  }
+}
 .text-color {
   color: #ff6060;
 }
-
-.collapse {
-  transition-property: height;
-  transition-duration: 200ms;
-  overflow: hidden;
-  background-color: #f6f6f6;
-  width: 100%;
-  border-radius: 10px;
-  .collapse-text {
-    padding: 10px;
-    font-size: 18px;
+.about-collapse-container {
+  display: flex;
+  justify-content: center;
+  .about-collapse-wrapper {
+    width: 80%;
+    .about-collapse {
+      margin-bottom: 1em;
+    }
   }
-}
-.collapsible {
-  display: inline;
-  background-color: #ff6060;
-  border-radius: 10px;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  position: relative;
-}
-.collapsible:after {
-  content: "";
-  background-image: url("../assets/arrow-down.png");
-  background-size: cover;
 }

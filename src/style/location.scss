@@ -46,13 +46,11 @@
   justify-content: center;
   display: flex;
 }
-.collapse-wrapper {
+.location-collapse-wrapper {
   display: flex;
   width: 90%;
   justify-content: space-between;
   .description-collapse {
-    background-color: #f6f6f6;
-    border-radius: 10px;
     width: 45%;
   }
   .equipments-collapse {

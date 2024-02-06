@@ -1,0 +1,50 @@
+.collapse-button {
+  position: relative;
+  margin-bottom: 2em;
+  .collapse {
+    transition-property: height;
+    transition-duration: 200ms;
+    overflow: hidden;
+    background-color: #f6f6f6;
+    width: 100%;
+    border-radius: 10px;
+    .collapse-text {
+      padding: 10px;
+      font-size: 24px;
+    }
+  }
+  .collapsible {
+    display: inline;
+    background-color: #ff6060;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    position: relative;
+  }
+  .collapsible-test::after {
+    position: absolute;
+    right: 10px;
+    content: "";
+    background-image: url("../assets/arrow-up.png");
+    background-size: cover;
+    width: 24px; /* Adjust width as needed */
+    height: 24px; /* Adjust height as needed */
+    display: inline-block;
+  }
+  .collapsible-test1::after {
+    position: absolute;
+    right: 10px;
+    content: "";
+    background-image: url("../assets/arrow-down.png");
+    background-size: cover;
+    width: 24px; /* Adjust width as needed */
+    height: 24px; /* Adjust height as needed */
+    display: inline-block;
+  }
+}

@@ -14,7 +14,7 @@ function Home() {
 
   return (
     <div className="App">
-      <Banner className="banner" />
+      <Banner page="homepage" className="banner" />
       <div className="card-container">
         {logements.map((logement) => (
           <Card onClick={() => handleClick(logement.id)} className="card" key={logement.id} logement={logement} />
