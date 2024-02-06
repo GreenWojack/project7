@@ -3,7 +3,7 @@ import Banner from "../components/banner"
 import Card from "../components/location_card"
 import logements from "../data/logements.json"
 import { useNavigate } from "react-router-dom"
-import "../style/home.scss"
+import "../style/style.scss"
 
 function Home() {
   const navigate = useNavigate()

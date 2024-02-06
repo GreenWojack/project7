@@ -1,5 +1,5 @@
 import React from "react"
-import "../style/location_card.scss"
+import "../style/style.scss"
 
 function Card({ logement, onClick }) {
   const { id, title, cover } = logement

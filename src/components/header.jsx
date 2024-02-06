@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import logo from "../assets/logo.png"
-import "../style/header.scss"
+import "../style/style.scss"
 
 function Header() {
   return (
@@ -12,10 +12,10 @@ function Header() {
           </Link>
         </div>
         <div className="nav">
-          <Link className="navLink" to="/">
+          <Link className="navLink text-color" to="/">
             Accueil
           </Link>
-          <Link className="navLink" to="/about">
+          <Link className="navLink text-color" to="/about">
             A Propos
           </Link>
         </div>

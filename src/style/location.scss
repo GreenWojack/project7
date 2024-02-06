@@ -3,5 +3,59 @@
   display: flex;
   .location-details {
     width: 90%;
+    .location-info {
+      display: flex;
+      .title-bloc {
+        width: 85%;
+        .location-header {
+          margin-bottom: 5px;
+        }
+        .location-tag {
+          margin-top: 20px;
+        }
+      }
+      .rating-bloc {
+        margin-top: 1em;
+        width: 15%;
+        text-align: end;
+        .host {
+          display: flex;
+          justify-content: end;
+          .host-name {
+            height: 1em;
+            width: 20%;
+            margin-top: 10px;
+            font-size: large;
+          }
+          .host-picture {
+            margin-left: 25px;
+            border-radius: 60px;
+            object-fit: cover;
+            width: 64px;
+          }
+        }
+        .rating-star {
+          margin-top: 20px;
+          width: 36px;
+        }
+      }
+    }
+  }
+}
+.location-collapse {
+  justify-content: center;
+  display: flex;
+}
+.collapse-wrapper {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  .description-collapse {
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    width: 45%;
+  }
+  .equipments-collapse {
+    width: 45%;
   }
 }
