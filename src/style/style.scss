@@ -12,6 +12,11 @@
 body {
   margin: 0;
 }
+#root {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 7em;
+}
 .App {
   text-align: center;
   display: flex;
