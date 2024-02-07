@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import logo from "../assets/logo.png"
 import "../style/style.scss"
 
@@ -7,17 +7,17 @@ function Header() {
     <nav>
       <div className="navigation">
         <div className="logo">
-          <Link to="/">
+          <NavLink to="/">
             <img src={logo} alt="logo" />
-          </Link>
+          </NavLink>
         </div>
         <div className="nav">
-          <Link className="navLink text-color" to="/">
+          <NavLink className="navLink text-color" to="/">
             Accueil
-          </Link>
-          <Link className="navLink text-color" to="/about">
+          </NavLink>
+          <NavLink className="navLink text-color" to="/about">
             A Propos
-          </Link>
+          </NavLink>
         </div>
       </div>
     </nav>
