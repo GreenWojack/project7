@@ -1,0 +1,10 @@
+.about-collapse-container {
+  display: flex;
+  justify-content: center;
+  .about-collapse-wrapper {
+    width: 80%;
+    .about-collapse {
+      margin-bottom: 1em;
+    }
+  }
+}

@@ -7,6 +7,7 @@
 @import "./location.scss";
 @import "./tag.scss";
 @import "./collapse.scss";
+@import "./about.scss";
 @import "./footer.scss";
 
 body {
@@ -33,14 +34,4 @@ body {
 }
 .text-color {
   color: #ff6060;
-}
-.about-collapse-container {
-  display: flex;
-  justify-content: center;
-  .about-collapse-wrapper {
-    width: 80%;
-    .about-collapse {
-      margin-bottom: 1em;
-    }
-  }
 }

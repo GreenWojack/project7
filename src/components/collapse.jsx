@@ -12,7 +12,9 @@ function Collapse({ title, text }) {
       return (
         <ul>
           {text.map((item, index) => (
-            <li key={index}>{item}</li>
+            <li className="collapse-text" key={index}>
+              {item}
+            </li>
           ))}
         </ul>
       )
