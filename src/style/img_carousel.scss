@@ -26,3 +26,10 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .carousel {
+    .carousel-container {
+      height: 30vh;
+    }
+  }
+}

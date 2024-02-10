@@ -7,9 +7,22 @@
   background-color: #f6f6f6;
 
   .card {
-    width: 340px;
-    height: 340px;
     border-radius: 10px;
     margin: 15px;
+  }
+}
+@media (max-width: 1440px) {
+  .card-container {
+    justify-content: center;
+    .card {
+      width: 45%;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .card-container {
+    .card {
+      width: 100%;
+    }
   }
 }

@@ -12,3 +12,16 @@
     cursor: pointer;
   }
 }
+@media (max-width: 768px) {
+  .error-container {
+    display: flex;
+    justify-content: center;
+    .error {
+      width: 90%;
+      .error-number {
+        margin-top: 1.5em;
+        font-size: 7em;
+      }
+    }
+  }
+}

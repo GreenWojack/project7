@@ -21,3 +21,19 @@ nav {
     }
   }
 }
+@media (max-width: 768px) {
+  .nav-logo {
+    width: 35%;
+    max-width: 128px;
+  }
+  nav {
+    .navigation {
+      .nav {
+        top: 0.5em;
+        .navLink {
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
