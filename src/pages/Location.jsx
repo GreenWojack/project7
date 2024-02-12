@@ -12,11 +12,10 @@ import Collapse from "../components/collapse"
 const Location = () => {
   const navigate = useNavigate()
   const { id } = useParams()
-  const [selectedLogement, setSelectedLogement] = useState(null) // State to hold the selected logement
+  const [selectedLogement, setSelectedLogement] = useState(null)
   useEffect(() => {
-    // Use useEffect to call getLogement when component mounts or id changes
     getLogement()
-  }, [id]) // Add id as a dependency to useEffect
+  }, [id])
 
   function getLogement() {
     const foundLogement = logements.find((logement) => logement.id === id)
@@ -26,7 +25,6 @@ const Location = () => {
     setSelectedLogement(foundLogement)
   }
 
-  // Function to render star ratings based on the given rating
   function renderStars(rating) {
     const stars = []
     for (let i = 0; i < 5; i++) {
